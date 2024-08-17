@@ -1,0 +1,352 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+body{
+   overflow-y: hidden;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(yellow,blue);
+    position: fixed;
+    z-index: 1;
+    display:flex ;
+    justify-content:right;
+    align-items: center;
+    
+}
+.nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: cursive;
+    margin-right: 25px;
+  
+}
+.nav a:hover{
+   color: crimson;
+}
+.para{
+  
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 300px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+.para p{
+   margin-top: 15px;
+}
+.para p:nth-child(3){
+   font-size: 30px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 600;
+}
+.para p:nth-child(3):hover{
+ -webkit-text-fill-color:purple;
+}
+
+.bg{
+    background-color: greenyellow;
+    height: 500px;
+    width: 80%;
+    /* position: relative; */
+    z-index: -2;
+    margin-left: 15%;
+    margin-top: 7.4%;
+    position: fixed;
+}
+
+.frame1{
+    /* background-color: darkorange;*/
+   background-image:radial-gradient(brown,darkturquoise);
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    /* position: absolute; */
+    rotate: 45deg;
+    margin-top: 400px;
+    margin-left: 40px;
+    z-index: 1;
+    border: 3px solid black;
+    position: fixed;
+}
+.icon {
+   /* height: 300px;
+   width: 300px; */
+   position: fixed;
+   z-index: 1;
+   margin-top: 306px;
+   margin-left: 14px;
+   /* padding-left: 20px; */
+   
+}
+.icon i{
+   margin-top: 178px;
+   margin-left: 7px;
+   font-size: 20px;
+   height: 30px;
+   width: 30px;
+   /* background-color: aliceblue; */
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   /* padding-left: 10px; */
+   position: relative;
+   animation-timing-function: linear;
+   animation-direction: normal;
+   animation-duration: 1s;
+   animation-delay: 0s;
+   animation-iteration-count: infinite;
+} 
+.icon i:hover{
+   color:crimson;
+   animation-name: abc;
+  
+
+   
+}
+ @keyframes abc{
+   0%{
+      top: 0px;
+      left: 0px;
+   }
+   /* 25%{
+      top: -10px;
+      left: 3px;
+   } */
+   50%{
+      top: -10px;
+      left: 5px;
+   }
+   75%{
+      top: 0px;
+      left: 10px;
+   }
+   100%{
+      top: 0px;
+      left: 0px;
+   }
+   
+}
+
+
+
+ .frame2{
+    height: 200px;
+    width: 200px;
+    background-color:darkorange;
+    clip-path: polygon(52% 71%, 0% 100%, 100% 100%);
+    rotate: 270deg;
+    border-radius: 50%;
+    margin-top: -300px;
+
+ }
+ .frame2:hover{
+    background-image: linear-gradient(blue 70%,pink);
+
+ }
+ .frame3{
+    height: 200px;
+    width: 200px;
+    background-color: darkorange;
+    clip-path: polygon(52% 71%, 0% 100%, 100% 100%);
+    rotate: 180deg;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -200px;
+    
+}
+.frame3:hover{
+   background-image: linear-gradient(blue 70%,pink);
+   
+}
+.frame4{
+    height: 200px;
+    width: 200px;
+    background-color: darkorange;
+    /* background-color: darkorange; */
+    clip-path: polygon(52% 71%, 0% 100%, 100% 100%);
+    rotate: 90deg;
+    border-radius: 50%;
+    margin-top: -200px;
+    
+}
+.frame4:hover{
+   background-image: linear-gradient(blue 70%,pink);
+
+}
+.frame5{
+    height: 200px;
+    width: 200px;
+    background-color: darkorange;
+    clip-path: polygon(52% 71%, 0% 100%, 100% 100%);
+    rotate: 0deg;
+    border-radius: 50%;
+    margin-top: -200px;
+    
+   }
+.frame5:hover{
+    background-image: linear-gradient(blue 70%,pink);
+    /* transform: translateY(20px); */
+    /* transition-duration: 5sec; */
+
+ }
+ .frame{
+    float: right;
+    margin-top: 420px;
+    margin-left: 1050px;
+    position: fixed;
+ }
+ .pic{
+   height: 150px;
+   width:150px;
+   margin-top: 145px;
+   margin-left: 1075px;
+   position: fixed;
+   z-index: 2;
+   border-radius: 50%;
+
+ }
+ .pic:hover{
+ transform: scale(150%);
+ }
+ .hanger1{
+    height:200px;
+    width: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: darkturquoise;
+    
+    margin-top: 100px;
+    margin-left: 30px;
+    position: fixed;
+ }
+ .hanger2{
+    height:120px;
+    width: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(233, 50, 111);
+    margin-top: 100px;
+    margin-left: 120px;
+    position: fixed;
+ }
+ .abt{
+    margin-top: 1000px; 
+    position:absolute;
+    margin-inline: 250px;
+    font-size:20px;
+    /* font-weight: 550; */
+    padding-top: 150px;
+}
+.abt p{
+     text-indent: 50px;
+     padding: 20px;
+
+ }
+ .abt h2{
+    text-decoration: underline;
+    text-transform: capitalize;
+
+ }
+ .skill{
+    margin-top: 250px;
+    margin-left: -300px;
+    /* position: absolute; */
+   padding-top: 150px;
+    /* height: auto;
+    width: auto; */
+ }
+ .skill h3{
+    position: absolute;
+    margin-inline: 400px;
+    height: 100%;
+    width: 200px;
+    text-decoration: underline;
+    color: maroon; 
+ }
+ .skill h3:nth-child(1){
+    margin-left: 400px;
+ }
+ .skill h3:nth-child(2){
+    margin-left: 800px;
+ }
+ .skill1{
+    margin-left: 420px;
+    margin-top: 50px;
+ }
+ .skill1 li{
+   font-size: 20px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   list-style:square;
+ }
+ .softlist{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin-left: 400px;
+    margin-top: -190px;
+ }
+
+ .educate{
+   margin-top: 250px;
+   /* margin-inline: 100px; */
+   padding-top: 150px;
+}
+.educate .educatetopic{
+   font-size: 25px;
+   font-weight: 600;
+   margin-bottom: 30px;
+   text-decoration: underline;
+}
+.educate li {
+   font-size: 20px;
+   /* margin-top: 20px; */
+   margin-left: 100px;
+}
+.educate ol p{
+   margin-top: -20px;
+   margin-left: 20px;
+}
+.year{
+   margin-left: 450px;
+   margin-top: -270px;
+   
+}
+.year li{
+   list-style: none;
+   margin-bottom: 70px;
+}
+.certificate{
+   margin-left: 100px;
+   padding-top: 150px;
+   padding-bottom: 110px;
+}
+.certificate p{
+   text-transform: capitalize;
+   margin-left: -120px;
+   margin-bottom: 30px;
+   font-size: 30px;
+   text-decoration: underline;
+}
+.certificate li{
+   font-size: 20px;
+   margin-bottom: 15px;
+}
+.project{
+   padding-top: 150px;
+   padding-left: 100px;
+}
+.proj{
+   font-size: 30px;
+   text-transform: capitalize;
+   text-decoration: underline;
+   margin-left: -100px;
+}
+.project li{
+   margin-bottom: 50px;
+}
